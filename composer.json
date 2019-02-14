@@ -1,0 +1,26 @@
+{
+	"name": "able/process",
+	"version": "1.0",
+	"type": "library",
+	"keywords": ["phpable", "exec", "process", "php"],
+	"description": "phpABLE external process execution",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hacpaka",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"require": {
+		"php": ">=7.2.0",
+		"able/helpers": "dev-master",
+		"able/prototypes": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Able\\Process\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
